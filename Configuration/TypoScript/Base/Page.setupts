@@ -2,6 +2,19 @@ page = PAGE
 page {
     typeNum = 0
 
+    includeCSS {
+            100 = EXT:theme/Resources/Public/Css/bootstrap.css
+            200 = EXT:theme/Resources/Public/Css/bootstrap-theme.css
+    }
+
+    includeJSFooter {
+        bootstrap = EXT:theme/Resources/Public/JavaScript/bootstrap.js
+    }
+
+    includeJSFooterlibs {
+        jquery = EXT:theme/Resources/Public/JavaScript/jquery-2.2.0.js
+    }
+
     10 = FLUIDTEMPLATE
     10 {
         templateName = TEXT
