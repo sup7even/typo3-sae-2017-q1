@@ -38,6 +38,11 @@ page {
         templateRootPaths {
             10 = EXT:theme/Resources/Private/Templates
         }
+        settings {
+            phoneNumberGeneral = {$site.projectinfos.phone}
+        }
+        variables {
+        }
     }
 
 }
