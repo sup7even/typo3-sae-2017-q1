@@ -2,6 +2,8 @@ page = PAGE
 page {
     typeNum = 0
 
+    bodyTag = <body id="top">
+
     includeCSS {
             100 = EXT:theme/Resources/Public/Css/bootstrap.css
             200 = EXT:theme/Resources/Public/Css/bootstrap-theme.css
