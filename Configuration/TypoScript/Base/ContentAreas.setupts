@@ -1,0 +1,16 @@
+// main content
+lib.content.main = CONTENT
+lib.content.main {
+    table = tt_content
+    select {
+        orderBy = sorting
+        where = colPos=0
+    }
+}
+// grid content
+lib.content.grid1von3 < lib.content.main
+lib.content.grid1von3.select.where = colPos=10
+lib.content.grid2von3 < lib.content.main
+lib.content.grid2von3.select.where = colPos=11
+lib.content.grid3von3 < lib.content.main
+lib.content.grid3von3.select.where = colPos=12
