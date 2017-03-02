@@ -9,4 +9,7 @@ site {
     uids {
         startpage = 2
     }
+    googleAnalytics {
+        id = ID1234567
+    }
 }

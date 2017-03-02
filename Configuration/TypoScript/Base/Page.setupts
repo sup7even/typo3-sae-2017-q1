@@ -2,6 +2,7 @@ page = PAGE
 page {
     typeNum = 0
 
+    headTag = <head><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     bodyTag = <body id="top">
 
     includeCSS {

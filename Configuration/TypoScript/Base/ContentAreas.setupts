@@ -53,3 +53,5 @@ lib.dynamicContent {
     }
     90 = RESTORE_REGISTER
 }
+lib.dynamicContentSlide < lib.dynamicContent
+lib.dynamicContentSlide.20.slide = -2
